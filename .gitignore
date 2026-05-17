@@ -1,0 +1,330 @@
+# ============================================
+# PYTHON
+# ============================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+
+# ============================================
+# VIRTUAL ENVIRONMENT
+# ============================================
+
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+.env.virtualenv
+
+
+# ============================================
+# ENVIRONMENT VARIABLES (CRITICAL!)
+# ============================================
+
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+.env.*.local
+*.env
+
+# Allow example env file
+!.env.example
+
+
+# ============================================
+# FLASK
+# ============================================
+
+instance/
+.webassets-cache
+*.db
+*.sqlite
+*.sqlite3
+
+
+# ============================================
+# LOGS
+# ============================================
+
+*.log
+logs/
+log/
+*.log.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+# ============================================
+# UPLOADS & TEMP FILES
+# ============================================
+
+uploads/
+temp/
+tmp/
+*.tmp
+*.temp
+*.bak
+*.backup
+*.swp
+*.swo
+
+
+# ============================================
+# IDE / EDITOR
+# ============================================
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+
+# ============================================
+# OS FILES
+# ============================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+
+# ============================================
+# TESTING & COVERAGE
+# ============================================
+
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+.testmondata
+
+
+# ============================================
+# JUPYTER NOTEBOOK
+# ============================================
+
+.ipynb_checkpoints
+*.ipynb
+
+
+# ============================================
+# MYPY / TYPE CHECKING
+# ============================================
+
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+
+# ============================================
+# DOCUMENTATION
+# ============================================
+
+docs/_build/
+docs/_autosummary/
+site/
+
+
+# ============================================
+# DATABASE FILES
+# ============================================
+
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+local_db/
+
+
+# ============================================
+# CACHE
+# ============================================
+
+.cache/
+.pytest_cache/
+.ruff_cache/
+__pycache__/
+*.cache
+
+
+# ============================================
+# MEDICAL AI SPECIFIC
+# ============================================
+
+# Uploaded medical images (should not be in repo)
+uploaded_images/
+medical_images/
+patient_data/
+
+# AI model files (too large for git)
+*.pkl
+*.h5
+*.pt
+*.pth
+*.onnx
+*.tflite
+
+# Sensitive patient data
+patient_records/
+diagnosis_history/
+*.csv
+*.xlsx
+
+
+# ============================================
+# DEPLOYMENT
+# ============================================
+
+# Railway
+.railway/
+
+# Heroku
+.heroku/
+
+# Docker
+*.dockerfile.local
+docker-compose.override.yml
+
+
+# ============================================
+# CERTIFICATES & KEYS
+# ============================================
+
+*.pem
+*.key
+*.crt
+*.cert
+*.p12
+*.pfx
+secrets/
+private/
+credentials/
+
+
+# ============================================
+# DEPENDENCIES LOCK FILES (Optional)
+# ============================================
+
+# Keep these if you want exact version control
+# Pipfile.lock
+# poetry.lock
+
+
+# ============================================
+# MISC
+# ============================================
+
+# Temporary files
+*.tmp
+*.temp
+*~
+.~lock.*
+
+# Compiled translations
+*.mo
+*.pot
+
+# Local configurations
+local_config.py
+local_settings.py
+
+# Debug files
+debug.py
+test_local.py
+scratch.py
+playground/
+
+# Personal notes
+TODO.md
+NOTES.md
+notes.txt
+todo.txt
