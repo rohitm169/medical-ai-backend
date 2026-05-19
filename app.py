@@ -126,7 +126,7 @@ def setup_cors(app):
         "http://127.0.0.1:5000",
 
         # Production (Vercel)
-        os.getenv('https://your-vercel-name.vercel.app', ''),
+        os.getenv('FRONTEND_URL', ''),
     ]
 
     # Add additional production URLs from env
